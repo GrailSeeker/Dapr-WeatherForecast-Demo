@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaprFrontEnd", "DaprFrontEnd\DaprFrontEnd.csproj", "{9BE1B03C-DCBB-49D6-93BF-35A52D8430FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaprBackEnd", "DaprBackEnd\DaprBackEnd.csproj", "{7DB32B85-32E5-49FE-BFF2-45A78DBE1FA8}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{422138B6-2DAF-4115-9BF5-4C23315FD39B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BE1B03C-DCBB-49D6-93BF-35A52D8430FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE1B03C-DCBB-49D6-93BF-35A52D8430FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE1B03C-DCBB-49D6-93BF-35A52D8430FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE1B03C-DCBB-49D6-93BF-35A52D8430FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DB32B85-32E5-49FE-BFF2-45A78DBE1FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB32B85-32E5-49FE-BFF2-45A78DBE1FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB32B85-32E5-49FE-BFF2-45A78DBE1FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB32B85-32E5-49FE-BFF2-45A78DBE1FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422138B6-2DAF-4115-9BF5-4C23315FD39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422138B6-2DAF-4115-9BF5-4C23315FD39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422138B6-2DAF-4115-9BF5-4C23315FD39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422138B6-2DAF-4115-9BF5-4C23315FD39B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B0B23FC-CEC3-4E5B-86F8-7515B6E5F70C}
+	EndGlobalSection
+EndGlobal
